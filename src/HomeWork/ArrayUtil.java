@@ -33,9 +33,7 @@ public class ArrayUtil {
         System.out.println(min);
 
 
-        if (numbers.length <= 2) {
-            System.out.println();
-        } else if (numbers.length % 2 == 0) {
+        if (numbers.length % 2 == 0) {
             int mid1 = numbers[numbers.length / 2 - 1];
             int mid2 = numbers[numbers.length / 2];
             System.out.println(mid1 + "" + mid2);
