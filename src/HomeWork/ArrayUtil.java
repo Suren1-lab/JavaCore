@@ -1,5 +1,7 @@
 package HomeWork;
 
+import java.util.Arrays;
+
 public class ArrayUtil {
     public static void main(String[] args) {
 
@@ -65,6 +67,8 @@ public class ArrayUtil {
 
         double average = (double) sum / numbers.length;
         System.out.println(average);
+
+        System.out.println(Arrays.toString(numbers));
     }
 }
 
